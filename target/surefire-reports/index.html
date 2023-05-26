@@ -162,28 +162,18 @@
                   <a name="testCareesrTestCase">
                   </a> <!-- testCareesrTestCase -->
                   <span class="method-name">testCareesrTestCase</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;link-apply-0&apos;]/span/span&quot;}
-  (Session info: chrome=113.0.5672.127)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[@id=&apos;link-apply-0&apos;]/span/span
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-CJ63G7LO&apos;, ip: &apos;10.1.10.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\kohli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 611007ed28dd2ccc20cd68b302f016a9
-*** Element info: {Using=xpath, value=//a[@id=&apos;link-apply-0&apos;]/span/span}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at CareerTest.testCareesrTestCase(CareerTest.java:44)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 41 stack frames
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -222,21 +212,6 @@ Session ID: 611007ed28dd2ccc20cd68b302f016a9
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">DonationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="OpenBrowser">
-                  </a> <!-- OpenBrowser -->
-                  <span class="method-name">OpenBrowser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">SpecialtyCareTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -245,6 +220,21 @@ Session ID: 611007ed28dd2ccc20cd68b302f016a9
                   <a name="testSpecialtyCare">
                   </a> <!-- testSpecialtyCare -->
                   <span class="method-name">testSpecialtyCare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DonationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenBrowser">
+                  </a> <!-- OpenBrowser -->
+                  <span class="method-name">OpenBrowser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -324,27 +314,27 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCareesrTestCase')
 data.setCell(0, 2, 'CareerTest')
-data.setCell(0, 3, 37326);
+data.setCell(0, 3, 36553);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testSpecialtyCare')
 data.setCell(1, 2, 'SpecialtyCareTest')
-data.setCell(1, 3, 18637);
+data.setCell(1, 3, 17644);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'OpenBrowser')
 data.setCell(2, 2, 'DonationTest')
-data.setCell(2, 3, 10136);
+data.setCell(2, 3, 10143);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'amita1')
-data.setCell(3, 2, 'BillPayTest')
-data.setCell(3, 3, 8494);
+data.setCell(3, 1, 'PriceTransparencyTest')
+data.setCell(3, 2, 'PriceTransparencyTest')
+data.setCell(3, 3, 9340);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'PriceTransparencyTest')
-data.setCell(4, 2, 'PriceTransparencyTest')
-data.setCell(4, 3, 8254);
+data.setCell(4, 1, 'amita1')
+data.setCell(4, 2, 'BillPayTest')
+data.setCell(4, 3, 8452);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Location')
 data.setCell(5, 2, 'LocationTest')
-data.setCell(5, 3, 6241);
+data.setCell(5, 3, 6213);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
@@ -382,64 +372,64 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">amita1</span>
-                <span class="method-start">5348 ms</span>
+                <span class="method-start">6372 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CareerTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13846 ms</span>
+                <span class="method-start">14830 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCareesrTestCase</span>
-                <span class="method-start">18393 ms</span>
+                <span class="method-start">19411 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">DonationTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">55721 ms</span>
+                <span class="method-start">55969 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">OpenBrowser</span>
-                <span class="method-start">61228 ms</span>
+                <span class="method-start">61142 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LocationTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">71365 ms</span>
+                <span class="method-start">71287 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Location</span>
-                <span class="method-start">76105 ms</span>
+                <span class="method-start">77522 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PriceTransparencyTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">82347 ms</span>
+                <span class="method-start">83738 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">PriceTransparencyTest</span>
-                <span class="method-start">87509 ms</span>
+                <span class="method-start">88746 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SpecialtyCareTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">95764 ms</span>
+                <span class="method-start">98087 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSpecialtyCare</span>
-                <span class="method-start">100678 ms</span>
+                <span class="method-start">103308 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -73,7 +73,7 @@ driver.findElement(By.xpath("//div[@class='icon']")).click();
         driver.findElement(By.xpath("//a[contains(text(),'Ascension Medical Group Illinois - Heart & Vascula')]")).click();
         String title1 = driver.getTitle();
         System.out.println(title1);
-        
+        driver.quit();
 
     }
     

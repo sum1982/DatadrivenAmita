@@ -2,79 +2,61 @@
 <testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="119340" started-at="2023-05-23T10:16:58 CDT" finished-at="2023-05-23T10:18:57 CDT">
+  <suite name="Command line suite" duration-ms="120982" started-at="2023-05-24T12:53:57 CDT" finished-at="2023-05-24T12:55:58 CDT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="119340" started-at="2023-05-23T10:16:58 CDT" finished-at="2023-05-23T10:18:57 CDT">
-      <class name="LocationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:LocationTest@5c3bd550]" name="setUp" is-config="true" duration-ms="4740" started-at="2023-05-23T10:18:09 CDT" finished-at="2023-05-23T10:18:14 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Location()[pri:0, instance:LocationTest@5c3bd550]" name="Location" duration-ms="6241" started-at="2023-05-23T10:18:14 CDT" finished-at="2023-05-23T10:18:20 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Location -->
-      </class> <!-- LocationTest -->
+    <test name="Command line test" duration-ms="120982" started-at="2023-05-24T12:53:57 CDT" finished-at="2023-05-24T12:55:58 CDT">
       <class name="PriceTransparencyTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:PriceTransparencyTest@91161c7]" name="setUp" is-config="true" duration-ms="5162" started-at="2023-05-23T10:18:20 CDT" finished-at="2023-05-23T10:18:25 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:PriceTransparencyTest@91161c7]" name="setUp" is-config="true" duration-ms="5008" started-at="2023-05-24T12:55:21 CDT" finished-at="2023-05-24T12:55:26 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="PriceTransparencyTest()[pri:0, instance:PriceTransparencyTest@91161c7]" name="PriceTransparencyTest" duration-ms="8254" started-at="2023-05-23T10:18:25 CDT" finished-at="2023-05-23T10:18:33 CDT">
+        <test-method status="PASS" signature="PriceTransparencyTest()[pri:0, instance:PriceTransparencyTest@91161c7]" name="PriceTransparencyTest" duration-ms="9340" started-at="2023-05-24T12:55:26 CDT" finished-at="2023-05-24T12:55:35 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PriceTransparencyTest -->
       </class> <!-- PriceTransparencyTest -->
-      <class name="DonationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DonationTest@5e3a8624]" name="setUp" is-config="true" duration-ms="5507" started-at="2023-05-23T10:17:53 CDT" finished-at="2023-05-23T10:17:59 CDT">
+      <class name="LocationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LocationTest@5c3bd550]" name="setUp" is-config="true" duration-ms="6235" started-at="2023-05-24T12:55:08 CDT" finished-at="2023-05-24T12:55:14 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:4, instance:DonationTest@5e3a8624]" name="OpenBrowser" duration-ms="10136" started-at="2023-05-23T10:17:59 CDT" finished-at="2023-05-23T10:18:09 CDT">
+        <test-method status="PASS" signature="Location()[pri:0, instance:LocationTest@5c3bd550]" name="Location" duration-ms="6213" started-at="2023-05-24T12:55:14 CDT" finished-at="2023-05-24T12:55:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Location -->
+      </class> <!-- LocationTest -->
+      <class name="DonationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DonationTest@5e3a8624]" name="setUp" is-config="true" duration-ms="5173" started-at="2023-05-24T12:54:53 CDT" finished-at="2023-05-24T12:54:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:4, instance:DonationTest@5e3a8624]" name="OpenBrowser" duration-ms="10143" started-at="2023-05-24T12:54:58 CDT" finished-at="2023-05-24T12:55:08 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
       </class> <!-- DonationTest -->
       <class name="CareerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:CareerTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="4547" started-at="2023-05-23T10:17:12 CDT" finished-at="2023-05-23T10:17:16 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:CareerTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="4581" started-at="2023-05-24T12:54:12 CDT" finished-at="2023-05-24T12:54:16 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testCareesrTestCase()[pri:0, instance:CareerTest@1bce4f0a]" name="testCareesrTestCase" duration-ms="37326" started-at="2023-05-23T10:17:16 CDT" finished-at="2023-05-23T10:17:53 CDT">
+        <test-method status="FAIL" signature="testCareesrTestCase()[pri:0, instance:CareerTest@1bce4f0a]" name="testCareesrTestCase" duration-ms="36553" started-at="2023-05-24T12:54:16 CDT" finished-at="2023-05-24T12:54:53 CDT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='link-apply-0']/span/span"}
-  (Session info: chrome=113.0.5672.127)
+              <![CDATA[Cannot locate an element using xpath=//a[@id='link-apply-0']/span/span
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-CJ63G7LO', ip: '10.1.10.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\kohli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 611007ed28dd2ccc20cd68b302f016a9
-*** Element info: {Using=xpath, value=//a[@id='link-apply-0']/span/span}]]>
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='link-apply-0']/span/span"}
-  (Session info: chrome=113.0.5672.127)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[@id='link-apply-0']/span/span
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-CJ63G7LO', ip: '10.1.10.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\kohli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 611007ed28dd2ccc20cd68b302f016a9
-*** Element info: {Using=xpath, value=//a[@id='link-apply-0']/span/span}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
@@ -125,21 +107,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
         </test-method> <!-- testCareesrTestCase -->
       </class> <!-- CareerTest -->
       <class name="SpecialtyCareTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:SpecialtyCareTest@604ed9f0]" name="setUp" is-config="true" duration-ms="4914" started-at="2023-05-23T10:18:33 CDT" finished-at="2023-05-23T10:18:38 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SpecialtyCareTest@604ed9f0]" name="setUp" is-config="true" duration-ms="5221" started-at="2023-05-24T12:55:35 CDT" finished-at="2023-05-24T12:55:40 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSpecialtyCare()[pri:0, instance:SpecialtyCareTest@604ed9f0]" name="testSpecialtyCare" duration-ms="18637" started-at="2023-05-23T10:18:38 CDT" finished-at="2023-05-23T10:18:57 CDT">
+        <test-method status="PASS" signature="testSpecialtyCare()[pri:0, instance:SpecialtyCareTest@604ed9f0]" name="testSpecialtyCare" duration-ms="17644" started-at="2023-05-24T12:55:40 CDT" finished-at="2023-05-24T12:55:58 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpecialtyCare -->
       </class> <!-- SpecialtyCareTest -->
       <class name="BillPayTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:BillPayTest@3bfdc050]" name="setUp" is-config="true" duration-ms="5345" started-at="2023-05-23T10:16:58 CDT" finished-at="2023-05-23T10:17:03 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BillPayTest@3bfdc050]" name="setUp" is-config="true" duration-ms="6371" started-at="2023-05-24T12:53:57 CDT" finished-at="2023-05-24T12:54:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="amita1()[pri:0, instance:BillPayTest@3bfdc050]" name="amita1" duration-ms="8494" started-at="2023-05-23T10:17:03 CDT" finished-at="2023-05-23T10:17:12 CDT">
+        <test-method status="PASS" signature="amita1()[pri:0, instance:BillPayTest@3bfdc050]" name="amita1" duration-ms="8452" started-at="2023-05-24T12:54:03 CDT" finished-at="2023-05-24T12:54:12 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amita1 -->
